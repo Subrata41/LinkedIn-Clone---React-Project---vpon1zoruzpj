@@ -4,6 +4,7 @@ import Left from "./Left";
 import Main from "./Main";
 import Right from "./Right";
 
+
 const Container = styled.div`
   max-width: 100%;
 `;

@@ -10,6 +10,7 @@ import {
   onSnapshot,
 } from "firebase/firestore";
 
+
 export function signInAPI() {
   return (dispatch) => {
     signInWithPopup(auth, provider)

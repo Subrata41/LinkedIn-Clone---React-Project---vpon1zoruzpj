@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { Timestamp } from "firebase/firestore";
 import { postArticleAPI } from "../redux/actions";
 
+
 const PostModal = (props) => {
   const [editorText, setEditorText] = useState("");
   const [assetArea, setAssetArea] = useState("");

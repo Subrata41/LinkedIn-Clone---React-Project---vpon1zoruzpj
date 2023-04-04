@@ -1,5 +1,6 @@
 import * as actions from "../actions/actionTypes";
 
+
 export const initialState = {
   loading: false,
   articles: [],

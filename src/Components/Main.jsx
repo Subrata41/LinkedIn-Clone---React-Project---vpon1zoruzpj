@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import styled from "styled-components";
 import { getArticlesAPI } from "../redux/actions";
 import PostModal from "./PostModal";
+
+
 const Main = (props) => {
   const [showModal, setShowModal] = useState(false);
   const handleClick = () => {

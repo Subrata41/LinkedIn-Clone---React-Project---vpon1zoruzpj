@@ -7,6 +7,7 @@ import { getUserAuth } from "./redux/actions";
 import { connect } from "react-redux";
 import RequireAuth from "./Components/RequireAuth";
 
+
 const App = (props) => {
   useEffect(() => {
     props.getUserAuth();

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { connect } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
+
 const RequireAuth = ({ user, children }) => {
   const navigate = useNavigate();
   useEffect(() => {
