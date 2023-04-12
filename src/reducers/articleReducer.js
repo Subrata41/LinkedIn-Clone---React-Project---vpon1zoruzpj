@@ -4,7 +4,7 @@ export const initialState = {
 	loading: false,
 	articles: [],
 };
-
+ 
 function articleReducer(state = initialState, action) {
 	switch (action.type) {
 		case GET_ARTICLES:

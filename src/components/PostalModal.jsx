@@ -15,7 +15,7 @@ const Container = styled.div`
 	background-color: rgba(0, 0, 0, 0.8);
 	animation: fadeIn 0.3s ease;
 `;
-
+ 
 const Content = styled.div`
 	width: 100%;
 	max-width: 552px;

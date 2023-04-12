@@ -13,7 +13,7 @@ const Container = styled.div`
 	/* width: 100vw; */
 	z-index: 10;
 `;
-
+ 
 const Content = styled.div`
 	display: flex;
 	align-items: center;

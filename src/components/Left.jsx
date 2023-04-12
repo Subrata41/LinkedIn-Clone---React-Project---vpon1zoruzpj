@@ -32,7 +32,7 @@ const CardBackground = styled.div`
 	height: 54px;
 	margin: -12px -12px 0;
 `;
-
+ 
 const Photo = styled.div`
 	box-shadow: none;
 	background: url(${props => props.photoUrl});

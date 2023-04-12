@@ -8,7 +8,7 @@ import PostalModal from "./PostalModal";
 const Container = styled.div`
 	grid-area: main;
 `;
-
+ 
 const CommonBox = styled.div`
 	text-align: center;
 	overflow: hidden;

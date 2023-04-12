@@ -14,7 +14,7 @@ const Content = styled.div`
 	max-width: 1128px;
 	margin: auto;
 `;
-
+ 
 const Section = styled.section`
 	min-height: 50px;
 	margin: 16px 0 -30px;

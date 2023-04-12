@@ -7,7 +7,7 @@ export function setUser(payload) {
 		user: payload,
 	};
 }
-
+ 
 export function setLoading(status) {
 	return {
 		type: SET_LOADING_STATUS,

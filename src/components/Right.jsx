@@ -19,7 +19,7 @@ const FollowCard = styled.div`
 	box-shadow: 0 0 0 1px rgb(0 0 0 / 15%), 0 0 0 rgb(0 0 0 / 20%);
 	padding: 12px;
 `;
-
+ 
 const Title = styled.div`
 	display: inline-flex;
 	align-items: center;
