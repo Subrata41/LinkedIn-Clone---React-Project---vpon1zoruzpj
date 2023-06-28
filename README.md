@@ -28,9 +28,3 @@ To run the LinkedIn clone locally, follow these steps:
 
 - **Front-end:** HTML, CSS, React, Styled Components
 - **State Management:** Redux
-
-<<<<<<< HEAD
-=======
-Demo video:-
-<!-- <video src="https://user-images.githubusercontent.com/113381826/231438712-b09ae4ee-7182-4d6c-a853-28e19f0c6634.mp4" controls autoplay muted> -->
->>>>>>> 72d8504998526a0986780018bfc1e1fdf0a7390c
