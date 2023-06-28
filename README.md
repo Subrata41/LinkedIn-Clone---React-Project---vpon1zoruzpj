@@ -1,20 +1,31 @@
-# boilerplate-react-functional-public
+# LinkedIn Clone
 
-In this app we will be making a Word and Character counter app.
-First there needs to be a <code>textarea</code> element which will take the input
-from user.
+This is a LinkedIn clone, a web application that mimics some of the basic functionalities and features of the popular professional networking platform LinkedIn. It allows users to create an account, log in, view their homepage, add posts, like posts, comment on posts, and explore suggested connections.
 
-Below that element, create 2 divs with id="word-counter" and id="char-counter" respectively.
-#word-counter will show the number of words(empty space is not considered a word) and #char-counter will show the number of characters typed.
+## Features
 
-Also make an input with id="char-limit-input" which takes a number which is the limit of characters we can type in.
-By default char limit should be 50.
+- **User Authentication:** Users can create an account and log in using their credentials. For development purposes, a predefined set of usernames and passwords can be used.
+- **Homepage:** The homepage consists of several sections.
+  - **Navbar:** The top navigation bar contains the LinkedIn logo, a search bar, and links to various sections such as "Home," "My Network," etc.
+  - **Left Sidebar:** The left sidebar displays the user's name and profile picture. It also contains links to "My Items," "Events," "Groups," etc.
+  - **Add a Post:** Users can create and share posts. They can enter a title and post content for their posts.
+  - **Display Posts:** This section displays posts from other users. Posts include information such as the author's name, post text, number of likes, and comments.
+  - **Right Sidebar:** The right sidebar suggests connections for the user to follow.
+- **Adding a New Post:** Users can create and add a new post. The post can include information such as the author's name, title, post content, likes, and comments.
+- **Like:** Users can like posts.
 
-And the last input should be a slider input(with id ="fontSize-input") for taking the font size, default and min value should be 16px and max would be 32px.
+## Getting Started
 
-Apply the fontSize property to the textarea element.
+To run the LinkedIn clone locally, follow these steps:
 
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd linkedin-clone`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your web browser and visit `http://localhost:3000` to access the LinkedIn clone.
 
+## Technologies Used
 
-Demo video:-
-<video src="https://user-images.githubusercontent.com/113381826/230401879-dd404c1c-57d4-4e76-8897-38c4c2cee9c0.mp4" controls autoplay muted>
+- **Front-end:** HTML, CSS, React, Styled Components
+- **State Management:** Redux
+
