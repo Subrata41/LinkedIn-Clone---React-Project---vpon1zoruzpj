@@ -18,11 +18,27 @@ This is a LinkedIn clone, a web application that mimics some of the basic functi
 
 To run the LinkedIn clone locally, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd linkedin-clone`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your web browser and visit `http://localhost:3000` to access the LinkedIn clone.
+1. Clone the repository: 
+```bash
+git clone <repository-url>
+```
+2. Navigate to the project directory: 
+```bash
+cd linkedin-clone
+```
+3. Install the dependencies: 
+```bash
+npm install
+```
+4. Start the development server:
+ ```bash
+ npm start
+ ```
+5. Open your web browser and visit 
+```bash
+http://localhost:3000
+``` 
+to access the LinkedIn clone.
 
 ## Technologies Used
 
